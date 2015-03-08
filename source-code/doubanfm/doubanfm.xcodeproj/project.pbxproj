@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0883059619FFB91600C584CC /* ChannelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0883059519FFB91600C584CC /* ChannelController.swift */; };
+		08B07F2219FE4D610006517D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B07F2119FE4D610006517D /* AppDelegate.swift */; };
+		08B07F2419FE4D610006517D /* SongController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B07F2319FE4D610006517D /* SongController.swift */; };
+		08B07F2719FE4D610006517D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08B07F2519FE4D610006517D /* Main.storyboard */; };
+		08B07F2919FE4D610006517D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08B07F2819FE4D610006517D /* Images.xcassets */; };
+		08B07F2C19FE4D610006517D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 08B07F2A19FE4D610006517D /* LaunchScreen.xib */; };
+		08B07F3819FE4D610006517D /* doubanfmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B07F3719FE4D610006517D /* doubanfmTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		08B07F3219FE4D610006517D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08B07F1419FE4D610006517D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 08B07F1B19FE4D610006517D;
+			remoteInfo = doubanfm;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0883059519FFB91600C584CC /* ChannelController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChannelController.swift; path = ../ChannelController.swift; sourceTree = "<group>"; };
+		08B07F1C19FE4D610006517D /* doubanfm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = doubanfm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		08B07F2019FE4D610006517D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08B07F2119FE4D610006517D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		08B07F2319FE4D610006517D /* SongController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongController.swift; sourceTree = "<group>"; };
+		08B07F2619FE4D610006517D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		08B07F2819FE4D610006517D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		08B07F2B19FE4D610006517D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		08B07F3119FE4D610006517D /* doubanfmTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = doubanfmTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		08B07F3619FE4D610006517D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08B07F3719FE4D610006517D /* doubanfmTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = doubanfmTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		08B07F1919FE4D610006517D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08B07F2E19FE4D610006517D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08B07F1319FE4D610006517D = {
+			isa = PBXGroup;
+			children = (
+				08B07F1E19FE4D610006517D /* doubanfm */,
+				08B07F3419FE4D610006517D /* doubanfmTests */,
+				08B07F1D19FE4D610006517D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		08B07F1D19FE4D610006517D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				08B07F1C19FE4D610006517D /* doubanfm.app */,
+				08B07F3119FE4D610006517D /* doubanfmTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		08B07F1E19FE4D610006517D /* doubanfm */ = {
+			isa = PBXGroup;
+			children = (
+				08B07F2119FE4D610006517D /* AppDelegate.swift */,
+				08B07F2319FE4D610006517D /* SongController.swift */,
+				0883059519FFB91600C584CC /* ChannelController.swift */,
+				08B07F2519FE4D610006517D /* Main.storyboard */,
+				08B07F2819FE4D610006517D /* Images.xcassets */,
+				08B07F2A19FE4D610006517D /* LaunchScreen.xib */,
+				08B07F1F19FE4D610006517D /* Supporting Files */,
+			);
+			path = doubanfm;
+			sourceTree = "<group>";
+		};
+		08B07F1F19FE4D610006517D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				08B07F2019FE4D610006517D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		08B07F3419FE4D610006517D /* doubanfmTests */ = {
+			isa = PBXGroup;
+			children = (
+				08B07F3719FE4D610006517D /* doubanfmTests.swift */,
+				08B07F3519FE4D610006517D /* Supporting Files */,
+			);
+			path = doubanfmTests;
+			sourceTree = "<group>";
+		};
+		08B07F3519FE4D610006517D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				08B07F3619FE4D610006517D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		08B07F1B19FE4D610006517D /* doubanfm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08B07F3B19FE4D610006517D /* Build configuration list for PBXNativeTarget "doubanfm" */;
+			buildPhases = (
+				08B07F1819FE4D610006517D /* Sources */,
+				08B07F1919FE4D610006517D /* Frameworks */,
+				08B07F1A19FE4D610006517D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = doubanfm;
+			productName = doubanfm;
+			productReference = 08B07F1C19FE4D610006517D /* doubanfm.app */;
+			productType = "com.apple.product-type.application";
+		};
+		08B07F3019FE4D610006517D /* doubanfmTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08B07F3E19FE4D610006517D /* Build configuration list for PBXNativeTarget "doubanfmTests" */;
+			buildPhases = (
+				08B07F2D19FE4D610006517D /* Sources */,
+				08B07F2E19FE4D610006517D /* Frameworks */,
+				08B07F2F19FE4D610006517D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				08B07F3319FE4D610006517D /* PBXTargetDependency */,
+			);
+			name = doubanfmTests;
+			productName = doubanfmTests;
+			productReference = 08B07F3119FE4D610006517D /* doubanfmTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08B07F1419FE4D610006517D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "刘松坡";
+				TargetAttributes = {
+					08B07F1B19FE4D610006517D = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					08B07F3019FE4D610006517D = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 08B07F1B19FE4D610006517D;
+					};
+				};
+			};
+			buildConfigurationList = 08B07F1719FE4D610006517D /* Build configuration list for PBXProject "doubanfm" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 08B07F1319FE4D610006517D;
+			productRefGroup = 08B07F1D19FE4D610006517D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				08B07F1B19FE4D610006517D /* doubanfm */,
+				08B07F3019FE4D610006517D /* doubanfmTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		08B07F1A19FE4D610006517D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08B07F2719FE4D610006517D /* Main.storyboard in Resources */,
+				08B07F2C19FE4D610006517D /* LaunchScreen.xib in Resources */,
+				08B07F2919FE4D610006517D /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08B07F2F19FE4D610006517D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		08B07F1819FE4D610006517D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08B07F2419FE4D610006517D /* SongController.swift in Sources */,
+				08B07F2219FE4D610006517D /* AppDelegate.swift in Sources */,
+				0883059619FFB91600C584CC /* ChannelController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08B07F2D19FE4D610006517D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08B07F3819FE4D610006517D /* doubanfmTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		08B07F3319FE4D610006517D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 08B07F1B19FE4D610006517D /* doubanfm */;
+			targetProxy = 08B07F3219FE4D610006517D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		08B07F2519FE4D610006517D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08B07F2619FE4D610006517D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		08B07F2A19FE4D610006517D /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08B07F2B19FE4D610006517D /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		08B07F3919FE4D610006517D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		08B07F3A19FE4D610006517D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		08B07F3C19FE4D610006517D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = doubanfm/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		08B07F3D19FE4D610006517D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = doubanfm/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		08B07F3F19FE4D610006517D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = doubanfmTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/doubanfm.app/doubanfm";
+			};
+			name = Debug;
+		};
+		08B07F4019FE4D610006517D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = doubanfmTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/doubanfm.app/doubanfm";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		08B07F1719FE4D610006517D /* Build configuration list for PBXProject "doubanfm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08B07F3919FE4D610006517D /* Debug */,
+				08B07F3A19FE4D610006517D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08B07F3B19FE4D610006517D /* Build configuration list for PBXNativeTarget "doubanfm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08B07F3C19FE4D610006517D /* Debug */,
+				08B07F3D19FE4D610006517D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08B07F3E19FE4D610006517D /* Build configuration list for PBXNativeTarget "doubanfmTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08B07F3F19FE4D610006517D /* Debug */,
+				08B07F4019FE4D610006517D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08B07F1419FE4D610006517D /* Project object */;
+}
